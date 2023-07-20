@@ -1,0 +1,17 @@
+/*CSS変数定義*/
+:root{
+    --primary-bg: #28293e;
+    --secondary-bg: #fdf0e9;
+    --primary-color: white;
+    --secondary-color: #391400;
+    --padding-default: 24px;
+    --padding-narrow: 12px;
+}
+
+/*bodyリセット*/
+body{
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
