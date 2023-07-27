@@ -1,0 +1,117 @@
+/* css変数定義 */
+:root {
+    --primary-bg: #28293E;
+    --secondary-bg: #FDF0E9;
+    --primary-color: #D2DB54;
+    --secondary-color: #391400;
+    --padding-default: 24px;
+    --padding-narrow: 12px;
+}
+/* body リセット */
+body {
+    background-color: var(--primary-bg);
+    padding: 0px 0px 0px var(--padding-narrow);
+    margin: 0px;
+    position: relative;
+}
+div#container {
+    background-color: #FDF0E9;
+    padding-left: 25%;
+}
+img {
+    width: 100%;
+}
+
+#fixed-menu {
+    position: fixed;
+    bottom: 75px;
+    left: 40px;
+}
+#fixed-menu a,
+#fixed-menu a:link,
+#fixed-menu a:hover,
+#fixed-menu a:visited
+ {
+    text-decoration: none;
+}
+/* What one likes,One will do best. */
+#header-catch-text {
+    padding-top: 10px;
+    font-family: Azo Sans;
+    color: var(--primary-color);
+    font-size: 40Q;
+    line-height: 35%;
+    text-align: right;
+}
+
+/* トップ表示画像 */
+#TopPhoto {
+    text-align: right;
+    margin-left: 40%;
+}
+
+/* IWAMURO MISAKI */
+#header-catch-text2 {
+    font-family: Azo Sans;
+    color: var(--primary-bg);
+    font-size: 35Q;
+    line-height: 50%;
+    text-align: ;
+}
+
+/* who am i? */
+#about-me-text1 {
+    font-size: 40Q;
+    font-family: Azo Sans;
+    text-align: right;
+    padding-top: 3px;
+    padding-right: 10px;
+    color: var(--primary-bg);
+}
+
+/* 「好きこそものの上手なれ」*/
+#about-me-text2 {
+    font-size: 25px;
+    font-family: '游明朝体', serif;
+    color: var(--primary-bg);
+}
+
+/* 幼い頃から〜 */
+#about-me-text3 {
+    font-size: 15px;
+    font-family: '游明朝体', serif;
+    color: var(--primary-bg);
+    padding-top: 30px;
+}
+
+/* more */
+#about-me-text4 {
+    font-family: '游明朝体', serif;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* My works */
+#works1 {
+    font-size: 40q;
+    font-family: Azo Sans;
+    color: var(--primary-bg);
+    padding-top: 20px;
+}
+
+/* Contact */
+#contact {
+    font-size: 40Q;
+    font-family: Azo Sans;
+
+    text-align: right;
+} 
+
+
+@media screen and (max-width: 780px) {
+    /* for mobile */
+    #header-catch-text h1{
+        font-size: 35Q;
+    }
+}

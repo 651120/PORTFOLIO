@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio site</title>
-    <link rel="stylesheet" href=".css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!--固定メニュー-->
+    <div id="fixed-menu">
+        <div id="menu1"><a href="">Who am I?</a></div>
+        <div id="menu2"><a href="">My works</a></div>
+        <div id="menu3"><a href="">Contact</a></div>
+    </div>
+    
+    <div id="container">
     <!--トップー-->
     <header>
         <!--フェイス-->
-        <div id="header-cacth">
-            <div id="header-cacth-text"><h1>What one likes,</h1></div>
-            <div id="header-cacth-text2"><h1>One will do best.</h1></div>
-            <div id="header-catch-img">（画像）</div>
-            <div id="header-myname1"><h1>IWAMURO</h1></div>
-            <div id="header-myname2"><h1>MISAKI</h1></div>
-        </div>
-        <!--固定メニュー-->
-        <div id="fixed-menu">
-                <div id="menu1"><a href="">Who am I?</a></div>
-                <div id="menu2"></div><a href="">My works</a></div>
-                <div id="menu3"></div><a href="">Contact</a><div>
+        <div id="header-catch">
+            <div id="header-catch-text">
+                <h1>What one likes,</h1>
+                <h1>One will do best.</h1>
+            </div>
+            <img src="./image/TopPhoto.PNG" alt="写真">
+            <div id="header-catch-text2"><h1>IWAMURO</h1></div>
+            <div id="header-catch-text2"><h1>MISAKI</h1></div>
         </div>
        
     </header>
@@ -30,18 +33,18 @@
     <main>
         <!--Who am I?-->
         <div id="about-me">
-            <div id="about-me-text"><h1>who am I?</h1></div>
-            <div id="about-me-text">「好きこそものの上手なれ」</div>
-            <div id="about-me-text2">
+            <div id="about-me-text1"><h1>Who am I?</h1></div>
+            <div id="about-me-text2">「好きこそものの上手なれ」</div>
+            <div id="about-me-text3">
                 幼いころから、絵を描くことが特に好きで、
-                図工や美術といった芸術分野の授業を何よりも楽しみにしていました。
-                １からものづくりをすること、
-                デザインをすること、
-                今まで「大好き」止まりだった自分の「好き」を
-                今度は人の笑顔のために仕事にしたいと思いました。
-                自分の「好き」を武器に、貪欲にスキルアップに努めます。
+                <p>図工や美術といった芸術分野の授業を何よりも楽しみにしていました。</p>
+                <p>１からものづくりをすること、</p>
+                <p>デザインをすること、</p>
+                <p>今まで「大好き」止まりだった自分の「好き」を</p>
+                <p>今度は人の笑顔のために仕事にしたいと思いました。</p>
+                <p>自分の「好き」を武器に、貪欲にスキルアップに努めます。</p>
             </div>
-            <div id="about-me-text3"><a href="">more</a></div>
+            <div id="about-me-text4"><a href="">more</a></div>
         </div>
         <!--My Work-->
         <div id="latestwork">
@@ -73,5 +76,7 @@
         </div>
        
     </footer>
+
+    </div> 
 </body>
 </html>
